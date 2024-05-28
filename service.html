@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busico</title>
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- header -->
+    <header class=" bg-white position-fixed w-100 z-3">
+        <div class="container-xxl">
+            <nav class="navbar navbar-expand-lg py-3">
+                <a href="index.html" class="navbar-brand"><img src="assets/images/logo_05.png" alt="logo"></a>
+                <button class="navbar-toggler border-0" data-bs-toggle="collapse" data-bs-target="#collapsible"
+                    onclick="myFunction(this)">
+                    <span class="bar1"></span>
+                    <span class="bar2"></span>
+                    <span class="bar3"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="collapsible">
+                    <ul class="nav navbar-nav align-items-center">
+                        <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+                        <li class="nav-item"><a href="service.html" class="nav-link">SERVICES</a></li>
+                        <li class="nav-item"><a href="portfolio.html" class="nav-link">PORTFOLIO</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">ABOUT</a>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">CONTACT US</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link"><img src="assets/images/search-png.png"
+                                    style="width: 45px; height: 36px;"></a></li>
+                        <li class="nav-item"><a href="#" class="nav-link bg-primary text-white p-3 rounded">TRY FREE
+                                NOW</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- service-hero -->
+        <section class="service-hero text-white">
+            <div class="container">
+                <h1>SERVICE </h1>
+                <div style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page"><a href="service.html">Service</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- card-block -->
+        <section class="cards-block bg-grey">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-12">
+                        <div class="card border-0 p-4 mt-4">
+                            <div class="image-block py-3">
+                                <i class="fa-solid fa-house"></i>
+                            </div>
+                            <div class="card-body p-0 py-3">
+                                <h5 class="card-title">ARCHITECTURE</h5>
+                                <div class="card-text mt-3">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam alias repellat
+                                        nisi tenetur officia ipsam?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <div class="card border-0 p-4 mt-4">
+                            <div class="image-block py-3">
+                                <i class="fa-solid fa-tree"></i>
+                            </div>
+                            <div class="card-body p-0 py-3">
+                                <h5 class="card-title">INTERIOR DESIGN</h5>
+                                <div class="card-text mt-3">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam alias repellat
+                                        nisi tenetur officia ipsam?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <div class="card border-0 p-4 mt-4">
+                            <div class="image-block py-3">
+                                <i class="fa-solid fa-holly-berry"></i>
+                            </div>
+                            <div class="card-body p-0 py-3">
+                                <h5 class="card-title">HOME DECORATION</h5>
+                                <div class="card-text mt-3">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam alias repellat
+                                        nisi tenetur officia ipsam?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <div class="card border-0 p-4 mt-4">
+                            <div class="image-block py-3">
+                                <i class="fa-solid fa-paint-roller"></i>
+                            </div>
+                            <div class="card-body p-0 py-3">
+                                <h5 class="card-title">REPAIR AND PAINTING</h5>
+                                <div class="card-text mt-3">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam alias repellat
+                                        nisi tenetur officia ipsam?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <div class="card border-0 p-4 mt-4">
+                            <div class="image-block py-3">
+                                <i class="fa-solid fa-pen-fancy"></i>
+                            </div>
+                            <div class="card-body p-0 py-3">
+                                <h5 class="card-title">SKETCHING</h5>
+                                <div class="card-text mt-3">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam alias repellat
+                                        nisi tenetur officia ipsam?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <div class="card border-0 p-4 mt-4">
+                            <div class="image-block py-3">
+                                <i class="fa-solid fa-book-bookmark"></i>
+                            </div>
+                            <div class="card-body p-0 py-3">
+                                <h5 class="card-title">PROJECT PLANNING</h5>
+                                <div class="card-text mt-3">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam alias repellat
+                                        nisi tenetur officia ipsam?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- offers -->
+        <section class="offer-block text-center text-white">
+            <div class="container">
+                <div class="title-top py-3">
+                    <h2>WE OFFER THE RENOVATING SERVICES</h2>
+                </div>
+                <div class="content-block d-flex flex-wrap align-items-center justify-content-center">
+                    <div class="btn-block">
+                        <button class="btn btn-outline-secondary text-white">CONTACT US</button>
+                    </div>
+                    <div class="icon-block mx-5">
+                        <a href="telto:"> <i class="fa-solid fa-phone-volume"></i>
+                        </a>
+                    </div>
+                    <div class="content">
+                        <p>Call for support</p>
+                        <h5>(555) 548 201 520</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- technology -->
+        <section class="technology">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 col-12">
+                        <div class="content-block d-flex text-end mt-5">
+                            <div class="content">
+                                <h5>TECHNOLOGY</h5>
+                                <P>We are expert your all work is nice waiting for next project.</P>
+                            </div>
+                            <div class="image-block ms-4">
+                                <svg width="70" height="70" viewBox="0 0 70 70" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <rect width="70" height="70" fill="url(#pattern0)" />
+                                    <defs>
+                                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1"
+                                            height="1">
+                                            <use xlink:href="#image0_835_288" transform="scale(0.0078125)" />
+                                        </pattern>
+                                        <image id="image0_835_288" width="128" height="128"
+                                            xlink:href="data:image/png;base64,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" />
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="content-block d-flex text-end mt-5">
+                            <div class="content">
+                                <h5>CORE PLANNING</h5>
+                                <P>We are expert your all work is nice waiting for next project.</P>
+                            </div>
+                            <div class="image-block ms-4">
+                                <svg width="60" height="76" viewBox="0 0 60 76" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M33.212 9.32893C33.1165 9.32893 33.0194 9.31858 32.9233 9.2996C32.8307 9.28177 32.7382 9.25245 32.6484 9.21564C32.5599 9.17884 32.4742 9.13284 32.3948 9.07993C32.3138 9.02703 32.239 8.96492 32.1712 8.89764C32.1033 8.82979 32.0418 8.75445 31.9871 8.67395C31.9342 8.59402 31.8888 8.50891 31.852 8.4192C31.8152 8.33064 31.787 8.23806 31.768 8.14375C31.7485 8.04944 31.7399 7.95226 31.7399 7.8568C31.7399 7.76135 31.7485 7.66416 31.768 7.56985C31.787 7.47555 31.8152 7.38239 31.852 7.29441C31.8888 7.2047 31.9342 7.11902 31.9871 7.03966C32.0418 6.95858 32.1033 6.88382 32.1712 6.81597C32.239 6.74811 32.3143 6.68658 32.3948 6.63367C32.4742 6.57905 32.5599 6.53477 32.6484 6.49796C32.7382 6.46116 32.8307 6.43183 32.9233 6.41286C33.1131 6.37605 33.3092 6.37605 33.4989 6.41286C33.5932 6.43183 33.6858 6.46116 33.7744 6.49796C33.8641 6.53477 33.9492 6.57905 34.0291 6.63367C34.1096 6.68658 34.185 6.74811 34.2528 6.81597C34.3207 6.88382 34.3822 6.95858 34.4351 7.03966C34.488 7.11902 34.534 7.2047 34.5708 7.29441C34.6076 7.38296 34.6352 7.47555 34.6548 7.56985C34.6738 7.66416 34.6841 7.76135 34.6841 7.8568C34.6841 7.95226 34.6738 8.04944 34.6548 8.14375C34.6352 8.23806 34.6076 8.33064 34.5708 8.4192C34.534 8.50891 34.488 8.59402 34.4351 8.67395C34.3822 8.75445 34.3207 8.82979 34.2528 8.89764C34.185 8.96492 34.1096 9.02703 34.0291 9.07993C33.9492 9.13284 33.8641 9.17884 33.7744 9.21564C33.6858 9.25245 33.5932 9.28177 33.4989 9.2996C33.4046 9.31858 33.308 9.32893 33.212 9.32893Z"
+                                        fill="#FF5E14" />
+                                    <path
+                                        d="M21.3349 71.8136C19.11 71.8136 17.3004 70.0039 17.3004 67.7797C17.3004 65.5548 19.11 63.7451 21.3349 63.7451C23.5598 63.7451 25.37 65.5548 25.37 67.7797C25.37 70.0039 23.5598 71.8136 21.3349 71.8136ZM21.3349 66.6894C20.734 66.6894 20.2446 67.1782 20.2446 67.7797C20.2446 68.3806 20.734 68.8694 21.3349 68.8694C21.9364 68.8694 22.4258 68.3806 22.4258 67.7797C22.4258 67.1782 21.9364 66.6894 21.3349 66.6894Z"
+                                        fill="#FF5E14" />
+                                    <path
+                                        d="M56.1322 12.39H42.6703V4.57221C42.6703 2.0512 40.6186 0 38.097 0H4.57336C2.0512 0 0 2.0512 0 4.57221V70.8006C0 73.3216 2.05177 75.3728 4.57336 75.3728H38.097C40.6186 75.3728 42.6703 73.3216 42.6703 70.8006V45.4001H56.1322C58.2645 45.4001 60 43.6652 60 41.5329V16.2572C59.9994 14.1243 58.2645 12.39 56.1322 12.39ZM39.7255 70.8006C39.7255 71.6982 38.9952 72.4285 38.097 72.4285H4.57336C3.67514 72.4285 2.94425 71.6982 2.94425 70.8006V63.1306H39.7261V70.8006H39.7255ZM39.7255 60.1863H2.94425V9.32901H27.1498C27.9629 9.32901 28.6219 8.67001 28.6219 7.85689C28.6219 7.04377 27.9629 6.38476 27.1498 6.38476H2.94425V4.57221C2.94425 3.67456 3.67514 2.94425 4.57336 2.94425H38.097C38.9952 2.94425 39.7261 3.67456 39.7261 4.57221V12.39H26.7219C24.5897 12.39 22.8547 14.1243 22.8547 16.2572V41.5329C22.8547 43.6652 24.5897 45.4001 26.7219 45.4001H28.7846V48.0568C28.7846 48.5703 29.052 49.0465 29.4902 49.3139C29.7254 49.4571 29.9905 49.5289 30.2568 49.5289C30.4874 49.5289 30.7191 49.4749 30.9307 49.3656L38.6318 45.4001H39.7261V60.1863H39.7255ZM57.0552 41.5329C57.0552 42.0418 56.6411 42.4558 56.1322 42.4558H38.2747C38.04 42.4558 37.8094 42.5116 37.6007 42.6192L31.7289 45.6428V43.928C31.7289 43.1148 31.0693 42.4558 30.2568 42.4558H26.7219C26.213 42.4558 25.799 42.0418 25.799 41.5329V16.2572C25.799 15.7483 26.213 15.3342 26.7219 15.3342H56.1322C56.6411 15.3342 57.0552 15.7483 57.0552 16.2572V41.5329Z"
+                                        fill="#FF5E14" />
+                                    <path
+                                        d="M11.8442 38.0669C11.3923 38.0669 10.946 37.8594 10.6573 37.4672C8.95577 35.1538 8.0564 32.4125 8.0564 29.5401C8.0564 26.6672 8.95577 23.9265 10.6573 21.6131C11.1392 20.9581 12.0605 20.8178 12.7154 21.2997C13.3704 21.7816 13.5107 22.7028 13.0288 23.3578C11.7022 25.1617 11.0006 27.2992 11.0006 29.5401C11.0006 31.7805 11.7022 33.918 13.0288 35.7225C13.5107 36.3775 13.3704 37.2987 12.7154 37.7806C12.4532 37.9738 12.1473 38.0669 11.8442 38.0669Z"
+                                        fill="#FF5E14" />
+                                    <path
+                                        d="M16.9331 35.1542C16.4754 35.1542 16.0245 34.9414 15.7364 34.5418C14.6835 33.0777 14.1274 31.3479 14.1274 29.54C14.1274 27.732 14.6835 26.0029 15.7364 24.5388C16.2114 23.8786 17.1309 23.728 17.7911 24.203C18.4512 24.6774 18.6019 25.5974 18.1269 26.2576C17.4363 27.2179 17.0717 28.3525 17.0717 29.54C17.0717 30.7275 17.4363 31.862 18.1269 32.8224C18.6019 33.4825 18.4512 34.402 17.7911 34.877C17.5312 35.0639 17.231 35.1542 16.9331 35.1542Z"
+                                        fill="#FF5E14" />
+                                    <path
+                                        d="M47.3628 40.6917C47.2461 40.6917 47.1271 40.6894 47.0046 40.6848C46.4496 40.6635 41.4381 40.2759 36.3449 33.3C33.4559 29.3396 31.0033 25.0825 32.6071 20.7835C33.5203 18.3355 35.0873 17.2676 35.541 17.0002C36.181 16.5621 36.9487 16.3792 37.7141 16.4838C38.5324 16.596 39.2472 17.0209 39.7268 17.6805L42.2506 21.1383C43.2311 22.4805 42.9154 24.3862 41.5468 25.3868L40.7032 26.0021C41.039 26.8623 41.495 27.8595 42.2984 28.9607C43.1006 30.0596 43.9131 30.7985 44.6308 31.3811L45.4726 30.7669C46.839 29.7698 48.7498 30.0475 49.7326 31.3868L52.2582 34.8498C52.2588 34.8503 52.2594 34.8509 52.2594 34.8515C53.1783 36.1149 52.9333 37.8601 51.6763 39.0016C50.9281 39.6807 49.8143 40.6917 47.3628 40.6917ZM37.0246 19.5437C36.8992 19.6196 35.955 20.2332 35.3656 21.8128C34.4628 24.2326 35.4357 27.0578 38.7233 31.5645C43.0103 37.4369 47.0862 37.7405 47.1271 37.7434C48.6182 37.798 49.0713 37.3897 49.6969 36.8216C49.8108 36.7187 49.8574 36.6151 49.8666 36.5668L47.3559 33.1252C47.3473 33.1131 47.2771 33.0947 47.2081 33.1453L45.7947 34.1758C45.1 34.7359 44.1339 34.7388 43.4151 34.1729C42.5353 33.488 41.1983 32.4478 39.92 30.6962C38.6388 28.94 38.0557 27.35 37.6698 26.2971C37.4294 25.6513 37.5094 24.7444 38.2288 24.1642C38.2472 24.1492 38.2667 24.1343 38.2863 24.1199L39.8101 23.0095C39.882 22.9566 39.8814 22.8864 39.8728 22.8749L37.3478 19.4149C37.3415 19.4062 37.3242 19.4022 37.3144 19.4011C37.292 19.3982 37.2477 19.3982 37.1983 19.4344C37.1281 19.485 37.0988 19.508 37.0246 19.5437ZM49.8787 36.5835V36.5841V36.5835ZM45.2208 31.8474C45.2231 31.8491 45.2254 31.8509 45.2282 31.8532C45.2254 31.8509 45.2231 31.8491 45.2208 31.8474Z"
+                                        fill="#FF5E14" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="content-block d-flex text-end mt-5">
+                            <div class="content">
+                                <h5>PROJECT RESULT</h5>
+                                <P>We are expert your all work is nice waiting for next project.</P>
+                            </div>
+                            <div class="image-block ms-4">
+                                <i class="fa-solid fa-square-poll-vertical"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <div class="image-block">
+                            <img src="assets/images/man-with-cap.png" alt="worker">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <div class="content-block d-flex mt-5">
+                            <div class="image-block me-4">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+                            <div class="content">
+                                <h5>TRUSTED CLIENTS</h5>
+                                <P>We are expert your all work is nice waiting for next project.</P>
+                            </div>
+                        </div>
+                        <div class="content-block d-flex mt-5">
+                            <div class="image-block me-4">
+                                <i class="fa-solid fa-user-plus"></i>
+                            </div>
+                            <div class="content">
+                                <h5>SKILLED TEAM</h5>
+                                <P>We are expert your all work is nice waiting for next project.</P>
+                            </div>
+                        </div>
+                        <div class="content-block d-flex mt-5">
+                            <div class="image-block me-4">
+                                <i class="fa-solid fa-building-columns"></i>
+                            </div>
+                            <div class="content">
+                                <h5>SAVE MONEY</h5>
+                                <P>We are expert your all work is nice waiting for next project.</P>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- pricing-table -->
+        <section class="pricing-table bg-grey">
+            <div class="container">
+                <div class="title-top  text-center">
+                    <h6>PRICING TABLE</h6>
+                    <h2>Smart Pricing Plan For Smooth Work </h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-12 mt-5">
+                        <div class="card border-0 p-4 text-center shadow-lg">
+                            <div class="image-block">
+                                <img src="assets/images/manpng.png" class="w-auto mb-3" alt="man">
+                                <h5>BASIC</h5>
+                                <h4>$49.00</h4>
+                            </div>
+                            <div class="content-block py-4">
+                                <p>24/7 Tech Support</p>
+                                <p>Free Equipment Tools</p>
+                                <p>Advanced Options</p>
+                                <p>Motion Detection Plane</p>
+                                <p>Night Vision</p>
+                            </div>
+                            <div class="btn-block border  p-2">
+                                <button class="btn border-0 p-0">CHOOSE PLAN</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12 mt-5">
+                        <div class="card border-0 p-4 text-center  shadow-lg position-relative">
+                            <div class="image-block">
+                                <span>Popular</span>
+                                <img src="assets/images/p2 png.png" class="w-auto mb-3" alt="man">
+                                <h5>STANDARD</h5>
+                                <h4>$69.00</h4>
+                            </div>
+                            <div class="content-block py-4">
+                                <p>24/7 Tech Support</p>
+                                <p>Free Equipment Tools</p>
+                                <p>Advanced Options</p>
+                                <p>Motion Detection Plane</p>
+                                <p>Night Vision</p>
+                            </div>
+                            <div class="btn-block border  p-2">
+                                <button class="btn border-0 p-0">CHOOSE PLAN</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12 mt-5">
+                        <div class="card border-0 p-4 text-center  shadow-lg">
+                            <div class="image-block">
+                                <img src="assets/images/p3 png.png" class="w-auto mb-3" alt="man">
+                                <h5>PREMIUM</h5>
+                                <h4>$89.00</h4>
+                            </div>
+                            <div class="content-block py-4">
+                                <p>24/7 Tech Support</p>
+                                <p>Free Equipment Tools</p>
+                                <p>Advanced Options</p>
+                                <p>Motion Detection Plane</p>
+                                <p>Night Vision</p>
+                            </div>
+                            <div class="btn-block border  p-2">
+                                <button class="btn border-0 p-0">CHOOSE PLAN</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- states -->
+        <section class="states">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-12">
+                        <div class="content-block text-white text-center mt-3">
+                            <h3>30K+</h3>
+                            <h5>PROJECT DONE</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-12">
+                        <div class="content-block text-white  text-center mt-3">
+                            <h3>980+</h3>
+                            <h5>HAPPY CLIENTS</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-12">
+                        <div class="content-block text-white  text-center mt-3">
+                            <h3>50+</h3>
+                            <h5>SKILLED EMPOLYE</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-12">
+                        <div class="content-block text-white  text-center mt-3">
+                            <h3>98%</h3>
+                            <h5>COUNTRY COVERAGE </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- faqs -->
+        <section class="faqs-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-12 pe-0">
+                        <div class="content-block border bg-white p-4 mt-3">
+                            <div class="content d-flex align-items-center mt-4">
+                                <div class="image border d-flex justify-content-center align-items-center me-4">
+                                    <h5>1</h5>
+                                </div>
+                                <h5>How do i find the right architect for my project?</h5>
+                            </div>
+                            <div class="content d-flex align-items-center mt-4">
+                                <div class="image border d-flex justify-content-center align-items-center me-3">
+                                    <h5>2</h5>
+                                </div>
+                                <h5>What services do architect provides?</h5>
+                            </div>
+                            <div class="content d-flex align-items-center mt-4">
+                                <div class="image border d-flex justify-content-center align-items-center me-3">
+                                    <h5>3</h5>
+                                </div>
+                                <h5>How do i find the right architect for my project?</h5>
+                            </div>
+                            <div class="content d-flex align-items-center mt-4">
+                                <div class="image border d-flex justify-content-center align-items-center me-3">
+                                    <h5>4</h5>
+                                </div>
+                                <h5>How do i find the right architect for my project?</h5>
+                            </div>
+                            <div class="content d-flex align-items-center mt-4">
+                                <div class="image border d-flex justify-content-center align-items-center me-3">
+                                    <h5>5</h5>
+                                </div>
+                                <h5>Can you work with clients long distance</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12 ps-0">
+                        <div class="image-block d-flex justify-content-center align-items-center  mt-3">
+                            <div class="image bg-white d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-play" style="color: red;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="brand-blocks d-lg-flex justify-content-around mt-5">
+                    <img src="assets/images/b3png.png" class="w-auto" alt="brand">
+                    <img src="assets/images/b4.png" class="w-auto" alt="brand">
+                    <img src="assets/images/b5.png" class="w-auto" alt="brand">
+                    <img src="assets/images/b1.png" class="w-auto" alt="brand">
+                    <img src="assets/images/b2.png" class="w-auto" alt="brand">
+                    <img src="assets/images/b5.png" class="w-auto" alt="brand">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 mt-4">
+                        <h5 class="text-white mb-4">GET IN TOUCH</h5>
+                        <div class="icon-block">
+                            <div class="icon">
+                                <a href="tel:"><i class="fa-solid fa-phone-flip"></i></a>
+                            </div>
+                            <div class="content d-block">
+                                <a class="d-block" href="tel:+673 0853 060 50985">+673 853 605 985</a>
+                                <a href="tel:908 9098 987 98">+908 9098 987 98</a>
+                            </div>
+                        </div>
+                        <div class="icon-block mt-3">
+                            <div class="icon">
+                                <a href="mailto"><i class="fa-solid fa-envelope"></i></a>
+                            </div>
+                            <div class="content">
+                                <a href="mailto">info@examle.com</a> <br>
+                                <a href="mailto">info@webexample.com</a>
+                            </div>
+                        </div>
+                        <div class="icon-block mt-3">
+                            <div class="icon">
+                                <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+                            </div>
+                            <div class="content">
+                                <a href="#">7300-7398 Colonial Rd,Brooklyn, NY 11209</a><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mt-4">
+                        <h5 class="text-white mb-4">QUICK LINKS</h5>
+                        <div class="content-block">
+                            <p><a href="#">About Company</a></p>
+                            <p><a href="#">Communication Services</a></p>
+                            <p><a href="#">Internet Of Thimgs</a></p>
+                            <p><a href="#">Product Development</a></p>
+                            <p><a href="#">Industrial Automation</a></p>
+                            <p><a href="#">Payment Geetway</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-4">
+                        <h5 class="text-white mb-4">OUR FOOTPRINT</h5>
+                        <div class="footer-map">
+                            <img src="assets/images/footer-map.png" class="img-fluid" alt="map">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-logo-block">
+            <div class="container">
+                <div class="row py-4">
+                    <div class="col-md-4">
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="assets/images/footer-logo.png" alt="logo"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-white">
+                        <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero hic esse, ad
+                            maiores natus
+                            blanditiis possimus quod.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-links d-flex justify-content-evenly">
+                            <div class="icon bg-white p-2"><a href="#" class="p-2"><i
+                                        class="fa-brands fa-facebook-f"></i></a></div>
+                            <div class="icon bg-white p-2"><a href="#" class="p-2"><i
+                                        class="fa-brands fa-twitter"></i></a></div>
+                            <div class="icon bg-white p-2"><a href="#" class="p-2"><i
+                                        class="fa-brands fa-instagram"></i></a></div>
+                            <div class="icon bg-white p-2"><a href="#" class="p-2"><i
+                                        class="fa-brands fa-linkedin-in"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-block">
+            <div class="container">
+                <div class="row py-4">
+                    <div class="col-md-12 d-flex justify-content-between">
+                        <div class="copyright">
+                            <p> <i class="fa-regular fa-copyright"></i> 2022 Copyright By <span
+                                    class="text-danger">Busico.</span>All Rights
+                                Reserved</p>
+                        </div>
+                        <div class="term">
+                            <p><a href="#">Teams & Conditions | Contact</a> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+    </script>
+    <script src="assets/jquery/jquery-3.7.1.min.js"></script>
+</body>
+
+</html>
